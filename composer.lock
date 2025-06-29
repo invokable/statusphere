@@ -3957,16 +3957,16 @@
         },
         {
             "name": "revolution/laravel-bluesky",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/invokable/laravel-bluesky.git",
-                "reference": "5b0e23acb5c68650ff073976317f30c66b7f24eb"
+                "reference": "fffc20ff08099f7b26762669a74398b5aa567e51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/invokable/laravel-bluesky/zipball/5b0e23acb5c68650ff073976317f30c66b7f24eb",
-                "reference": "5b0e23acb5c68650ff073976317f30c66b7f24eb",
+                "url": "https://api.github.com/repos/invokable/laravel-bluesky/zipball/fffc20ff08099f7b26762669a74398b5aa567e51",
+                "reference": "fffc20ff08099f7b26762669a74398b5aa567e51",
                 "shasum": ""
             },
             "require": {
@@ -4026,7 +4026,7 @@
                 "socialite"
             ],
             "support": {
-                "source": "https://github.com/invokable/laravel-bluesky/tree/1.1.0"
+                "source": "https://github.com/invokable/laravel-bluesky/tree/1.1.1"
             },
             "funding": [
                 {
@@ -4034,7 +4034,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-29T06:44:33+00:00"
+            "time": "2025-06-29T07:17:29+00:00"
         },
         {
             "name": "symfony/clock",
