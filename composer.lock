@@ -3869,16 +3869,16 @@
         },
         {
             "name": "revolution/atproto-lexicon-contracts",
-            "version": "1.0.82",
+            "version": "1.0.85",
             "source": {
                 "type": "git",
                 "url": "https://github.com/invokable/atproto-lexicon-contracts.git",
-                "reference": "07110f78d88ce49547d664140b83165ddfb5b5cf"
+                "reference": "ff087eb64cf571605feff788abce371d503ce538"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/invokable/atproto-lexicon-contracts/zipball/07110f78d88ce49547d664140b83165ddfb5b5cf",
-                "reference": "07110f78d88ce49547d664140b83165ddfb5b5cf",
+                "url": "https://api.github.com/repos/invokable/atproto-lexicon-contracts/zipball/ff087eb64cf571605feff788abce371d503ce538",
+                "reference": "ff087eb64cf571605feff788abce371d503ce538",
                 "shasum": ""
             },
             "require": {
@@ -3912,7 +3912,7 @@
                 "contracts"
             ],
             "support": {
-                "source": "https://github.com/invokable/atproto-lexicon-contracts/tree/1.0.82"
+                "source": "https://github.com/invokable/atproto-lexicon-contracts/tree/1.0.85"
             },
             "funding": [
                 {
@@ -3920,20 +3920,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-03T04:11:59+00:00"
+            "time": "2025-11-03T04:08:52+00:00"
         },
         {
             "name": "revolution/laravel-bluesky",
-            "version": "1.1.3",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/invokable/laravel-bluesky.git",
-                "reference": "bdee3d69d4b95388696864559e5cd1c506b94b73"
+                "reference": "602888e18bc41f0d1e8f837eba918502e5562785"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/invokable/laravel-bluesky/zipball/bdee3d69d4b95388696864559e5cd1c506b94b73",
-                "reference": "bdee3d69d4b95388696864559e5cd1c506b94b73",
+                "url": "https://api.github.com/repos/invokable/laravel-bluesky/zipball/602888e18bc41f0d1e8f837eba918502e5562785",
+                "reference": "602888e18bc41f0d1e8f837eba918502e5562785",
                 "shasum": ""
             },
             "require": {
@@ -3943,7 +3943,7 @@
                 "laravel/socialite": "^5.16",
                 "php": "^8.2",
                 "phpseclib/phpseclib": "^3.0",
-                "revolution/atproto-lexicon-contracts": "1.0.82",
+                "revolution/atproto-lexicon-contracts": "1.0.85",
                 "yocto/yoclib-multibase": "^1.2"
             },
             "require-dev": {
@@ -3992,7 +3992,7 @@
                 "socialite"
             ],
             "support": {
-                "source": "https://github.com/invokable/laravel-bluesky/tree/1.1.3"
+                "source": "https://github.com/invokable/laravel-bluesky/tree/1.1.5"
             },
             "funding": [
                 {
@@ -4000,7 +4000,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-03T05:23:09+00:00"
+            "time": "2025-11-03T06:50:55+00:00"
         },
         {
             "name": "symfony/clock",
