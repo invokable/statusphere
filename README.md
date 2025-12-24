@@ -8,16 +8,6 @@
 
 Statusphere is a sample application demonstrating how to use the [Laravel Bluesky package](https://github.com/invokable/laravel-bluesky) to integrate with the Bluesky social network. It follows the official [AT Protocol application guidelines](https://atproto.com/guides/applications).
 
-## Live Demo
-
-A live version of this application is available at [https://statusphere.puklipo.com/](https://statusphere.puklipo.com/). Users can log in with their Bluesky account to try the application.
-
-### Server Infrastructure
-
-- AWS EC2
-- RDS(MySQL)
-- Laravel Forge
-
 ## Technology Stack
 
 - Laravel 12.x
