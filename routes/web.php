@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Laravel\Socialite\Facades\Socialite;
 use Livewire\Volt\Volt;
+use Revolution\Bluesky\Session\OAuthSession;
 
 Route::get('login', function (Request $request) {
     return Socialite::driver('bluesky')->hint($request->input('hint'))->redirect();
@@ -15,10 +16,10 @@ Route::get('callback', function (Request $request) {
         dd($request->all());
     }
 
-    /** @var \Laravel\Socialite\Two\User $socialite_user */
+    /** @var Laravel\Socialite\Two\User $socialite_user */
     $socialite_user = Socialite::driver('bluesky')->user();
 
-    /** @var \Revolution\Bluesky\Session\OAuthSession $session */
+    /** @var OAuthSession $session */
     $session = $socialite_user->session;
 
     session()->put('bluesky_session', $session->toArray());
