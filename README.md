@@ -6,7 +6,7 @@
 
 ## About
 
-Statusphere is a sample application demonstrating how to use the [Laravel Bluesky package](https://github.com/invokable/laravel-bluesky) to integrate with the Bluesky social network. It follows the official [AT Protocol application guidelines](https://atproto.com/guides/applications).
+Statusphere is a sample application demonstrating how to use the [Laravel Bluesky package](https://github.com/invokable/laravel-bluesky) to integrate with the Bluesky social network. It follows the official [statusphere](https://github.com/bluesky-social/statusphere-example-app).
 
 > [!CAUTION]
 > The working Live server has been discontinued.
@@ -22,7 +22,7 @@ Statusphere is a sample application demonstrating how to use the [Laravel Bluesk
 
 ## AT Protocol Integration
 
-Statusphere demonstrates key AT Protocol application patterns by implementing a decentralized emoji status system. The application follows the official [AT Protocol application guidelines](https://atproto.com/guides/applications) using Laravel and the `laravel-bluesky` package.
+Statusphere demonstrates key AT Protocol application patterns by implementing a decentralized emoji status system. The application follows the official [statusphere](https://github.com/bluesky-social/statusphere-example-app) using Laravel and the `laravel-bluesky` package.
 
 ### OAuth Authentication
 
